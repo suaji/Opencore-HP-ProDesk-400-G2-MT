@@ -34,11 +34,11 @@ iMac14,4 & Macmini7,1 = BigSur -> Montorey<br>
 ---
 
 ## 🛠️ Instructions
-0. TIPS<br>
+0. **TIPS<br>
 -> Start with Catalina (use offline image "createinstallmedia" for USB2. *OpenCore USB1<br>
 -> Use 2nd HDD/SSD if you install Windows in 1st HDD/SDD. Opencore autodetect HDD / Partition Windows.<br>
 
-1. **SMBIOS:** <br>
+1. **SMBIOS:<br>
 Generate your own Mac Devices (https://github.com/corpnewt/GenSMBIOS)<br>
 a) SystemProductName	x3	Line.614, 621, 644.<br>
 b) SystemSerialNumber	x4	Line.623, 646, 663, 718.<br>
@@ -47,15 +47,16 @@ d) MLB					x2	Line.638, 661.<br>
 e) ROM					x2	Line.632, 659.<br>
 * PASTE SMBIOS to ChatGPT and ask him to generate basic Config.plist<br>
 
-2. Ethernet KEXT (https://github.com/Mieze/RTL8111_driver_for_OS_X)<br>
+2. **Ethernet KEXT (https://github.com/Mieze/RTL8111_driver_for_OS_X)<br>
 * El-Capitan RealtekRTL8111.kext v2.2.1<br>
 * High Sierra RealtekRTL8111.kext v2.2.2<br>
 * Big Sur-Montorey RealtekRTL8111.kext v3.0.0<br>
 
-3. **BIOS Settings:** - **Disable:** Secure Boot, CFG-Lock, VT-d, Fast Boot.<br>
-   - **Enable:** AHCI, UEFI, VT-x.<br>
+3. **BIOS Settings:<br>
+   - *Disable:** Secure Boot, CFG-Lock, VT-d, Fast Boot.<br>
+   - *Enable:** AHCI, UEFI, VT-x and Data Execution Prevention<br>
    
-4. Copy the EFI folder to your ESP (EFI System Partition) after finish Setup macOS.<br>
+4. **Copy the EFI folder to your ESP (EFI System Partition) after finish Setup macOS.<br>
 
 ---
 
