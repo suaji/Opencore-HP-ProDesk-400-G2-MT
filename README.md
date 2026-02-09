@@ -10,7 +10,7 @@ iMac15,1 & Macmini7,1 = BigSur -> Montorey<br>
 ---
 
 ## 💻 System Specs
-* **CPU:** [Intel Core i5-4150]<br>
+* **CPU:** [Intel Core i3-4150]<br>
 * **iGPU:** [Intel HD Graphics 4400]<br>
 * **RAM:** [4GB DDR3]<br>
 * **OpenCore Version:** [1.0.6.] NOV 2025<br>
@@ -63,9 +63,13 @@ e) ROM					x2	Line.632, 659.<br>
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="https://refreshedbyus.com/media/catalog/product/cache/3893dbf8474ca4567d4cc8d34804c0cf/h/p/hp_prodesk_400_g2_mt_front.jpg" width="45%" />
-  <img src="https://raw.githubusercontent.com/suaji/Opencore-HP-ProDesk-400-G2-MT/refs/heads/main/Catalina.png" width="45%" />
+  <img src="https://refreshedbyus.com/media/catalog/product/cache/3893dbf8474ca4567d4cc8d34804c0cf/h/p/hp_prodesk_400_g2_mt_front.jpg" width="50%" height="70%" />
 </p>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/suaji/Opencore-HP-ProDesk-400-G2-MT/refs/heads/main/Neofetch.png" width="50%" height="70%" />
+</p>
+<br>
 
 ---
 
