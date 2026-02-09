@@ -1,0 +1,60 @@
+{
+    "Motherboard": {
+        "Name": "HEWLETT-PACKARD HP PRODESK 400 G2 MT",
+        "Chipset": "H81",
+        "Platform": "Desktop"
+    },
+    "BIOS": {
+        "Version": "L02 v02.56",
+        "Release Date": "2019-04-24",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i3-4150",
+        "Codename": "Haswell",
+        "Core Count": "02",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "Microsoft Basic Display Adapter": {
+            "Manufacturer": "Intel",
+            "Codename": "Haswell",
+            "Device ID": "8086-041E",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "198E103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.GFX0"
+        }
+    },
+    "Monitor": {
+        "S19A10N": {
+            "Connector Type": "Uninitialized",
+            "Resolution": "1366x768",
+            "Connected GPU": "Microsoft Basic Display Adapter"
+        }
+    },
+    "Network": {
+        "Realtek PCIe GBE Family Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-8168",
+            "Subsystem ID": "198E103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x2)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP03.PXSX"
+        }
+    },
+    "Sound": {
+        "Realtek High Definition Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0221",
+            "Subsystem ID": "103C198E",
+            "Audio Endpoints": [
+                "Speakers"
+            ],
+            "Controller Device ID": "8086-8C20"
+        }
+    },
+}

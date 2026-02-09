@@ -2,8 +2,9 @@
 This repository contains the OpenCore EFI folder for HP ProDesk 400 G2 MT
 
 Running macOS [ElCapitan - Montorey].<br>
-iMac14,2 = ElCapitan -> Mojave<br>
-iMac14,4 & Macmini7,1 = BigSur -> Montorey<br>
+Running macOS [ElCapitan - Montorey].<br>
+iMac14,2 & iMac14,4 = ElCapitan -> Mojave<br>
+iMac15,1 & Macmini7,1 = BigSur -> Montorey<br>
 * Montorey with OCLP<br>
 
 ---
